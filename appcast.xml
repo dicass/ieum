@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Ieum</title>
+        <item>
+            <title>0.11.15</title>
+            <pubDate>Tue, 06 Oct 2026 20:18:33 +0900</pubDate>
+            <link>https://github.com/dicass/ieum-releases</link>
+            <sparkle:version>89</sparkle:version>
+            <sparkle:shortVersionString>0.11.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="plain-text"><![CDATA[이음 0.11.15
+
+새 버전을 앱에서 확인하고 설치할 수 있습니다.
+· 일반 설정과 메뉴바에 업데이트 확인을 추가했습니다.
+· 기본값은 새 버전 자동 확인이며, 설치 전에 알려드립니다.
+· 미리 다운로드하고 종료할 때 설치하는 옵션을 제공합니다.
+· 파일 전송이나 원격 입력을 사용 중이면 설치를 미룹니다.
+· 업데이트 후 Finder 확장의 켜짐·꺼짐 선택을 보존하며 등록을 갱신합니다.
+
+처음에는 이 DMG로 이음을 교체해 주세요. 이후 버전부터 앱 안에서 업데이트할 수 있습니다.
+macOS 14 이상, Apple Silicon Mac용입니다.
+]]></description>
+            <enclosure url="https://github.com/dicass/ieum-releases/releases/download/v0.11.15/Ieum-0.11.15.dmg" length="8765914" type="application/octet-stream" sparkle:edSignature="VstxtwUFybng53tX1BELf7Dope1kvGqRNCfzKmzmY2RDKxeiRkbKfa4p06V212H9t+Hml76sUFaS7R0HseJRDg=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: FoGQk7nxi6E9dkcThw5hBY3yMTM0jFxyU9cYujWny7JfXRLKmmkwk64IiDFaXjUoKo31adqXGlQhdDy7ZnJhAA==
+length: 1946
+-->
