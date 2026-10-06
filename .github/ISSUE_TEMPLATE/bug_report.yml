@@ -1,0 +1,41 @@
+name: "문제 신고"
+description: "동작하지 않거나 예상과 다른 부분을 알려 주세요."
+title: "[문제] "
+body:
+  - type: markdown
+    attributes:
+      value: "재현할 수 있는 순서가 있으면 원인을 찾는 데 도움이 됩니다. 이슈는 공개되므로 비밀번호·인증 키·개인 파일 내용은 올리지 마세요."
+  - type: input
+    id: version
+    attributes:
+      label: "이음 버전"
+      description: "이음 창 왼쪽 아래에서 확인할 수 있어요."
+      placeholder: "예: 0.11.15"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: "Mac과 macOS 버전"
+      placeholder: "예: MacBook Pro M3 / macOS 15.7"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "어떤 순서로 실행했나요?"
+      placeholder: "1. …를 열었습니다.\n2. …를 눌렀습니다.\n3. …가 나타났습니다."
+    validations:
+      required: true
+  - type: textarea
+    id: expected_actual
+    attributes:
+      label: "기대한 결과와 실제 결과"
+      description: "오류 문구가 있다면 그대로 적어 주세요."
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: "추가 정보와 화면"
+      description: "다른 Mac의 이음 버전, 원격 앱 이름, LAN·VPN 연결 방식 등 관련 정보를 적어 주세요."
