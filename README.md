@@ -4,7 +4,7 @@
 
 <p align="center">Mac 사이의 입력과 자료를 이어 주는 도구</p>
 
-<p align="center"><a href="https://github.com/dicass/ieum-releases/releases/latest">최신 버전 다운로드</a> · <a href="USER_GUIDE.md">사용설명서</a> · <a href="CHANGELOG.md">변경 내역</a> · <a href="SUPPORT.md">문제 해결</a></p>
+<p align="center"><a href="https://github.com/dicass/ieum/releases/latest">최신 버전 다운로드</a> · <a href="USER_GUIDE.md">사용설명서</a> · <a href="CHANGELOG.md">변경 내역</a> · <a href="SUPPORT.md">문제 해결</a></p>
 
 **최신 버전 0.11.15 · macOS 14 이상 · Apple Silicon**
 
@@ -27,7 +27,7 @@
 
 ## 처음 설치하기
 
-1. [최신 설치 파일 — Ieum-0.11.15.dmg](https://github.com/dicass/ieum-releases/releases/download/v0.11.15/Ieum-0.11.15.dmg)을 받습니다.
+1. [최신 설치 파일 — Ieum-0.11.15.dmg](https://github.com/dicass/ieum/releases/download/v0.11.15/Ieum-0.11.15.dmg)을 받습니다.
 2. DMG를 열고 이음 아이콘을 **Applications** 폴더로 끌어다 놓습니다.
 3. 복사가 끝나면 **응용 프로그램** 폴더에서 이음을 실행합니다.
 4. 사용할 기능을 켜고, 그 기능에 필요한 권한을 허용합니다.
@@ -70,10 +70,10 @@ VPN을 사용한다면 VPN 연결도 먼저 확인해 주세요. 파일 전송�
 - 파일 전송이나 원격 입력을 사용 중이면 업데이트를 위한 종료를 미룹니다. 작업을 마치면 설치를 계속합니다.
 - 업데이트 후 Finder 확장 등록을 갱신할 때 기존 켜짐·꺼짐 선택을 보존합니다.
 
-[전체 변경 내역](CHANGELOG.md) · [이번 릴리스](https://github.com/dicass/ieum-releases/releases/tag/v0.11.15)
+[전체 변경 내역](CHANGELOG.md) · [이번 릴리스](https://github.com/dicass/ieum/releases/tag/v0.11.15)
 
 ## 도움이 필요할 때
 
-앱의 각 기능에 있는 **물음표**를 누르면 전체 도움말이 열립니다. 인터넷 없이도 읽을 수 있어요. GitHub에서는 [사용설명서](USER_GUIDE.md)를 읽거나 [문제 신고·기능 제안](https://github.com/dicass/ieum-releases/issues/new/choose)을 남길 수 있습니다.
+앱의 각 기능에 있는 **물음표**를 누르면 전체 도움말이 열립니다. 인터넷 없이도 읽을 수 있어요. GitHub에서는 [사용설명서](USER_GUIDE.md)를 읽거나 [문제 신고·기능 제안](https://github.com/dicass/ieum/issues/new/choose)을 남길 수 있습니다.
 
 이 저장소에는 **설치 파일, 사용 안내, 변경 내역**을 제공합니다. 이음 앱의 개발 소스와 개발 저장소 이력은 포함하지 않습니다. Releases의 **Source code** 파일은 이 배포 저장소의 문서 묶음이므로 앱을 설치하려면 **DMG**를 받으세요.

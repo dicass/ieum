@@ -4,7 +4,7 @@
 
 ## 자주 확인하는 것
 
-**업데이트 메뉴가 보이지 않아요.** 0.11.15 이전 버전에는 자동 업데이트가 없습니다. [최신 DMG](https://github.com/dicass/ieum-releases/releases/latest)를 한 번 직접 설치해 주세요. 새 버전에서도 확인이 안 되면 응용 프로그램 폴더의 이음을 실행했는지와 인터넷 연결을 확인합니다.
+**업데이트 메뉴가 보이지 않아요.** 0.11.15 이전 버전에는 자동 업데이트가 없습니다. [최신 DMG](https://github.com/dicass/ieum/releases/latest)를 한 번 직접 설치해 주세요. 새 버전에서도 확인이 안 되면 응용 프로그램 폴더의 이음을 실행했는지와 인터넷 연결을 확인합니다.
 
 **권한을 켰는데 키 제어나 화면 읽기가 안 돼요.** 응용 프로그램 폴더에 설치한 앱인지 먼저 확인합니다. 앱을 교체한 뒤 권한 정보가 맞지 않으면 이음을 종료하고, 해당 macOS 권한 목록에서 이전 항목을 제거한 다음 설치한 이음을 다시 추가해 허용합니다.
 
@@ -16,7 +16,7 @@
 
 ## 문제 신고와 기능 제안
 
-[문제 신고](https://github.com/dicass/ieum-releases/issues/new?template=bug_report.yml)에는 아래 내용을 적어 주세요.
+[문제 신고](https://github.com/dicass/ieum/issues/new?template=bug_report.yml)에는 아래 내용을 적어 주세요.
 
 - 이음 버전과 macOS 버전, 사용하는 Mac 종류
 - 어떤 순서로 실행했는지
@@ -25,4 +25,4 @@
 
 스크린샷이나 로그를 올릴 때는 비밀번호·인증 키·개인 파일 내용이 들어 있지 않은지 확인해 주세요. 이 저장소의 이슈는 공개됩니다.
 
-[기능 제안](https://github.com/dicass/ieum-releases/issues/new?template=feature_request.yml)은 하고 싶은 작업과 현재 불편한 점을 알려 주시면 됩니다. 사용하시는 상황과 예시가 있으면 더 구체적으로 검토할 수 있어요.
+[기능 제안](https://github.com/dicass/ieum/issues/new?template=feature_request.yml)은 하고 싶은 작업과 현재 불편한 점을 알려 주시면 됩니다. 사용하시는 상황과 예시가 있으면 더 구체적으로 검토할 수 있어요.

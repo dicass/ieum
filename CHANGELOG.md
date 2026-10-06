@@ -2,7 +2,7 @@
 
 새 버전에서 달라진 점을 최근 순서로 정리합니다. 이 문서는 0.11.10부터의 변경 내역을 담습니다.
 
-[최신 설치 파일](https://github.com/dicass/ieum-releases/releases/latest) · [사용설명서](USER_GUIDE.md)
+[최신 설치 파일](https://github.com/dicass/ieum/releases/latest) · [사용설명서](USER_GUIDE.md)
 
 ## 0.11.15 · 앱에서 새 버전 확인하고 설치하기
 
