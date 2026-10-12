@@ -4,32 +4,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Ieum</title>
         <item>
-            <title>0.11.18</title>
-            <pubDate>Mon, 12 Oct 2026 10:10:54 +0900</pubDate>
+            <title>0.11.19</title>
+            <pubDate>Mon, 12 Oct 2026 10:49:46 +0900</pubDate>
             <link>https://github.com/dicass/ieum</link>
-            <sparkle:version>92</sparkle:version>
-            <sparkle:shortVersionString>0.11.18</sparkle:shortVersionString>
+            <sparkle:version>93</sparkle:version>
+            <sparkle:shortVersionString>0.11.19</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[이음 0.11.18 · 업데이트 설치 대기와 취소 개선
+            <description sparkle:format="plain-text"><![CDATA[이음 0.11.19 · 원격 작업 중 업데이트와 입력 복원
 
-업데이트를 설치할 때 입력 동기화를 잠시 정리해 유휴 연결 때문에 계속 기다리지 않도록 했습니다. 자료 전송이 남아 있으면 대기 이유와 취소 방법을 보여주고, 전송이 끝나면 설치를 이어갑니다.
+자료 전송을 기다리는 동안 입력 동기화를 유지하고, 설치 직전에만 이음의 입력 연결을 잠시 정리합니다. 자동 업데이트 후에는 이전 입력 제어 상태로 돌아갑니다.
 
-설치 상태를 확인하세요
-· ‘설치 후 재실행’을 선택하면 입력 동기화를 잠시 멈추고 설치를 준비합니다. 업데이트 확인과 미리 다운로드하는 동안에는 입력 동기화를 유지합니다.
-· 자료를 전송하거나 저장하는 동안에는 대기 창에서 이유를 확인할 수 있습니다. 작업이 끝나면 한 번만 설치를 이어갑니다.
+원격 접속 중에도 설치하세요
+· 원격 입력 연결만으로 설치를 계속 기다리지 않습니다. 설치 직전에 이음의 입력 연결을 정리하며 원격 화면 접속은 유지합니다.
+· 파일을 전송하거나 저장하는 중일 때만 기다립니다. 대기 중에는 입력 동기화를 유지하고, 이유와 취소 방법을 표시합니다.
 
-취소하거나 나중에 설치하세요
-· 설치 대기 중 취소하면 입력 동기화를 이전 상태로 되돌립니다. 미리 받은 업데이트는 ‘나중에 설치’로 미룰 수 있습니다.
-· 설치 대기 중 앱 종료를 요청해도 업데이트 후 재실행이 이어지도록 처리했습니다.
+재실행 뒤 작업을 이어가세요
+· 자동 업데이트로 재실행하면 설치 직전의 입력 제어 켜짐·꺼짐 상태를 한 번 복원합니다. 평소의 ‘시작 시 제어’ 설정은 바꾸지 않습니다.
+· 설치를 취소하거나 실패하면 복원 예약을 지우고, 멈춘 입력은 같은 실행에서 되돌립니다.
 
-이전 버전에서 설치가 기다리고 있다면
-· 진행 중인 자료 전송을 마치고 한영 제어를 잠시 일시정지하면 설치를 이어갈 수 있습니다. 이번 설치 대기 개선은 0.11.18을 설치한 뒤부터 적용됩니다.
+적용 시점을 확인하세요
+· 이번 버전을 설치하는 과정은 현재 실행 중인 이전 버전이 처리합니다. 전송 대기 중 입력 유지와 재실행 뒤 상태 복원은 0.11.19에서 이후 버전으로 업데이트할 때부터 적용됩니다.
+· 0.11.17 이하에서 설치가 계속 기다린다면 전송을 마친 뒤 한영 제어를 잠시 일시정지하세요.
 ]]></description>
-            <enclosure url="https://github.com/dicass/ieum/releases/download/v0.11.18/Ieum-0.11.18.dmg" length="8705612" type="application/octet-stream" sparkle:edSignature="qTV4yvWExl4/N5P4EGWsoDDzlJyOpkDSH7T7+jYV1M3QzMbNygSeBIZjlkQjwMAur3/YppuEpl5+eORubxJRAw=="></enclosure>
+            <enclosure url="https://github.com/dicass/ieum/releases/download/v0.11.19/Ieum-0.11.19.dmg" length="8709091" type="application/octet-stream" sparkle:edSignature="A1l9kd2CnWcNzHpfzSGM917vW/W9vsF84LOrUfBZazdw8GGDeIf+zh2MOhBZejZzPrkpRiezrd6a82vEjtOwAg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 7sL++LLgWzjqywmnY0YwGNjy0xyivzbtdtz24aI1YlZfs5tuVn+ewyO09NUtGRXgOFDg1iACM6Rft5fMmI9uBg==
-length: 2573
+edSignature: AL6dNGUyB9a+kRtDXarack0B1yJTLKHLpYM1qCCJyqbLvgsM/G3ecn9pp1l0fZNR3LDiYh5mh/XHEFr5VXaWAQ==
+length: 2678
 -->
