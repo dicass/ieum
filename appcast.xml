@@ -4,41 +4,40 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Ieum</title>
         <item>
-            <title>0.11.20</title>
-            <pubDate>Mon, 12 Oct 2026 16:35:49 +0900</pubDate>
+            <title>0.11.21</title>
+            <pubDate>Tue, 13 Oct 2026 11:46:19 +0900</pubDate>
             <link>https://github.com/dicass/ieum</link>
-            <sparkle:version>94</sparkle:version>
-            <sparkle:shortVersionString>0.11.20</sparkle:shortVersionString>
+            <sparkle:version>95</sparkle:version>
+            <sparkle:shortVersionString>0.11.21</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[이음 0.11.20 · 통합 파일 관리와 대용량 전송 개선
+            <description sparkle:format="plain-text"><![CDATA[이음 0.11.21 · 더 가벼운 조작과 일관된 자료 관리
 
-여러 Mac의 폴더를 탭이나 바둑판으로 나란히 탐색할 수 있습니다. 파일·폴더의 20 GiB 전송 한도를 없애고 전송 처리와 저장을 개선했으며, 기능 소개와 전체 도움말도 함께 갱신했습니다.
+파일 탐색·검색·창고 작업의 불필요한 처리를 줄이고, 공유 폴더 관리와 보관함 화면을 정돈했습니다. 폴더 제거 후 남던 탐색 상태, 보내기 위치 선택과 작은 팝업의 조작도 개선했습니다.
 
-여러 Mac의 폴더를 나란히 보세요
-· 메뉴바의 ‘통합 파일 관리…’에서 독립된 탐색 창을 엽니다. 표시할 Mac을 체크하고 왼쪽에 놓을 Mac을 따로 고르며, 같은 Mac의 여러 위치도 탭이나 바둑판으로 배치할 수 있습니다.
-· 아이콘·목록·열 보기, 현재 폴더 검색, 즐겨찾기와 32 MiB 이하 파일 미리보기를 제공합니다. 열린 위치와 보기 방식을 기억합니다.
-· 상대 폴더는 파일이 있는 Mac의 ‘일반 → 자료 공유’에서 상대별 읽기를 허용해야 보입니다. 기존 받기 폴더의 내용은 자동 공개되지 않습니다.
-· 이번 파일 관리 화면은 탐색과 미리보기를 제공합니다. 화면 안의 복사·이동·이름 변경·휴지통은 아직 제공하지 않으며, 전송은 기존 Finder·창고·클립보드의 보내기를 사용하세요.
+폴더 관리와 탐색을 한곳에서
+· 공유 폴더의 추가·제거와 Mac별 읽기 허용을 ‘일반 → 자료 공유’에 모았습니다. 등록을 제거하면 해당 위치의 탐색 상태와 접근 허용에 바로 반영됩니다. 받기 허용과 읽기 허용은 각각 관리합니다.
+· 통합 파일 관리의 위치 선택을 위쪽 ‘Mac·위치’ 메뉴로 모으고 경로를 아래쪽에 표시해 파일 목록의 가로 공간을 넓혔습니다. 좁은 창에서는 보조 열을 줄입니다.
+· 파일이 많은 폴더의 반복 조회와 스크롤 갱신을 줄였습니다. 공유 폴더 제거 후 접근 차단 개선은 폴더를 제공하는 Mac에도 이번 버전을 설치해야 적용됩니다.
 
-큰 파일을 더 효율적으로 보내세요
-· 파일·폴더의 20 GiB 전송 한도를 없애고 실제 여유 공간을 확인합니다. 양쪽 Mac의 준비·수신 임시 공간과 최종 저장 위치에 여유 공간이 필요합니다.
-· 전송 데이터 처리 병목과 불필요한 파일 복사를 줄였습니다. 별도 고속 모드 설정 없이 적용되며 실제 속도는 네트워크와 저장 장치에 따라 달라집니다.
-· 지정 폴더에는 받은 파일을 저장하고 창고·복사 기록에는 위치를 기억해 중복 보관을 줄입니다. 지정 폴더의 파일을 옮기거나 지우면 기록에서 열 수 없을 수 있습니다.
-· 일시정지·재연결·앱 재실행 후 이어보내기를 지원합니다. 남은 전송 자료와 임시 파일이 유지돼 있어야 하며, 완전히 취소한 전송은 다시 보내야 합니다.
+보관과 보내기를 더 편하게
+· 창고·클립보드의 기본 화면과 팝업에서 ‘간단히·자세히’ 보기와 항목 조작을 통일했습니다. 작은 팝업에서도 검색·선택·보내기 조작부가 잘리지 않도록 다듬었습니다.
+· 창고의 범위 선택과 선택 해제를 개선하고, 현재 목록에 보이는 선택 항목을 보냅니다. 검색 결과가 없을 때는 조건을 바로 초기화할 수 있습니다.
+· 보내기 창에서 저장 위치를 새로고침해도 선택을 유지합니다. 확인 중이거나 상대가 제거한 위치로는 보내지 않으며, 사용할 수 없는 이유를 표시합니다.
 
-소개와 도움말에서 확인하세요
-· 처음 실행할 때의 기능 소개에 통합 파일 관리 페이지를 추가해 8개 기능을 안내합니다. 대용량 전송·이어보내기 예시와 각 기능의 도움말 연결도 반영했습니다.
-· 앱의 전체 도움말, 프로그램 소개와 문제 해결 안내를 함께 갱신했습니다. 기능 소개는 ‘일반 → 일반 → 다시 보기’ 또는 ‘도움말 → 기능 소개’에서 다시 열 수 있습니다.
+큰 자료를 다룰 때도 작업을 이어가세요
+· 창고의 큰 텍스트·이미지를 복사하거나 끌어갈 때 자료 준비를 백그라운드에서 처리합니다. 복사 완료·실패를 안내하고, 준비 중 새로 복사한 클립보드는 덮어쓰지 않습니다.
+· 창고 전체 비우기의 목록 저장과 화면 갱신을 줄이고 보관 자료 정리를 백그라운드에서 처리합니다. 정리에 실패하면 상태를 안내하고 다음 실행에서 다시 시도하며, 링크한 원본 파일은 유지합니다.
+· 통합 검색·단축키 한눈에 보기의 반복 계산과 사용하지 않는 기능의 대기 중 조회를 줄였습니다. 자료 전송의 데이터 처리도 화면 갱신과 분리했습니다.
 
-양쪽 Mac의 버전과 보관 한도를 확인하세요
-· 통합 파일 관리와 20 GiB 초과 전송에는 양쪽 Mac 모두 0.11.20 이상이 필요합니다. 구버전에는 지원 기능에 맞춰 동작하고 필요한 경우 업데이트를 안내합니다.
-· 창고의 전체 100 GiB·500개 보관 한도와 텍스트·이미지의 항목당 50 MiB 한도는 유지합니다. 창고 한도를 넘는 파일은 상대가 허용한 저장 폴더로 직접 보내세요.
+상태와 도움말을 더 분명하게
+· 복사 기록을 읽을 수 없을 때 빈 목록처럼 보이던 화면을 고치고, 기존 자료를 보존한 채 복구 안내를 표시합니다. 초기화는 확인을 거쳐 진행합니다.
+· 전체 도움말에 공유 폴더 관리, 위치 선택과 보관함의 달라진 동선을 반영했습니다. 통합 파일 관리의 제공 범위는 탐색·미리보기이며, 파일 보내기는 Finder·창고·클립보드에서 시작합니다.
 ]]></description>
-            <enclosure url="https://github.com/dicass/ieum/releases/download/v0.11.20/Ieum-0.11.20.dmg" length="9227710" type="application/octet-stream" sparkle:edSignature="lA/m2g4wbaaDUwz7vZxUf5bQQwVr+L+8yjvtquC2vBu6WSfi46X0ixzfUPeSOLq9M8ZQ4zhuClOSE9r2PphXDg=="></enclosure>
+            <enclosure url="https://github.com/dicass/ieum/releases/download/v0.11.21/Ieum-0.11.21.dmg" length="9284970" type="application/octet-stream" sparkle:edSignature="hO5ECQfG47O+za7KfYFSKibfKrENaFi9BzV/1oKxoS/31EGTtXFw1KTrbOqYfzBZARC0WK5ShUAG1TyslHDKCg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: IhEzpCrxqwHmSROu6fcyyUiXn5Vrbwv5DHW0GTQZuOSBKKuLnjKCEeNNAZG76qNHiEkuSIXQoNN5tUWb5PBSAA==
-length: 4343
+edSignature: IF9VpIvDd5+rvVYX1Xxbg8qrtN1dR5YpJzjszDo3ZxU2gWzZB5x2YRLLpwXEt/qmamM7cXfYNKo40APx9kjDDA==
+length: 4257
 -->
