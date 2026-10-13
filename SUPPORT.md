@@ -30,6 +30,8 @@
 
 ## 문제 신고와 기능 제안
 
+취약점·인증정보 노출·권한 우회 의심은 [보안 안내](SECURITY.md)를 확인한 뒤 [비공개 보안 제보](https://github.com/dicass/ieum/security/advisories/new)를 이용하세요. 아래의 일반 문제 신고는 공개 이슈입니다. 실제 비밀번호·인증 키·개인 자료는 어느 경로에도 보내지 마세요.
+
 [문제 신고](https://github.com/dicass/ieum/issues/new?template=bug_report.yml)에는 아래 내용을 적어 주세요.
 
 - 이음 버전과 macOS 버전, 사용하는 Mac 종류

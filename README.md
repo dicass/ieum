@@ -6,7 +6,7 @@
 
 <p align="center">Mac 사이의 입력과 자료를 이어 주는 도구</p>
 
-<p align="center"><a href="https://github.com/dicass/ieum/releases/latest">최신 버전 다운로드</a> · <a href="USER_GUIDE.md">사용설명서</a> · <a href="CHANGELOG.md">변경 내역</a> · <a href="SUPPORT.md">문제 해결</a></p>
+<p align="center"><a href="https://github.com/dicass/ieum/releases/latest">최신 버전 다운로드</a> · <a href="USER_GUIDE.md">사용설명서</a> · <a href="CHANGELOG.md">변경 내역</a> · <a href="SUPPORT.md">문제 해결</a> · <a href="SECURITY.md">보안</a> · <a href="PRIVACY.md">개인정보</a></p>
 
 **최신 버전 0.11.23 · macOS 14 이상 · Apple Silicon**
 
@@ -61,6 +61,12 @@
 | Finder 확장 | Finder 우클릭 메뉴에서 창고에 담기·다른 Mac으로 보내기 |
 
 권한은 사용하는 Mac마다 허용해야 합니다. 설정을 동기화해도 macOS 권한까지 옮겨지지는 않아요. 자세한 순서는 [사용설명서](USER_GUIDE.md)에 있습니다.
+
+## 보안과 개인정보
+
+이음은 Developer ID 서명·Apple 공증과 서명된 업데이트 검증을 사용합니다. 자동 설치는 기본으로 꺼져 있습니다. 서명과 공증은 배포 경로와 알려진 악성 코드에 대한 방어이며, 모든 동작의 안전성을 보증하지는 않습니다.
+
+[보안 안내](SECURITY.md)에서 설치 파일 확인 방법과 검증의 한계를, [개인정보 안내](PRIVACY.md)에서 기능별 접근 정보·저장·전송·삭제 방법을 확인하세요. **외부 전문업체의 독립 보안 감사는 아직 받지 않았습니다.** 보안 문제는 공개 이슈에 상세 내용을 올리지 말고 [비공개로 제보](https://github.com/dicass/ieum/security/advisories/new)해 주세요.
 
 ## 다른 Mac과 함께 쓰기
 
