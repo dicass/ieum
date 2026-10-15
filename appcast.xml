@@ -4,35 +4,38 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Ieum</title>
         <item>
-            <title>0.11.23</title>
-            <pubDate>Wed, 14 Oct 2026 00:48:33 +0900</pubDate>
+            <title>0.11.25</title>
+            <pubDate>Thu, 15 Oct 2026 16:48:47 +0900</pubDate>
             <link>https://github.com/dicass/ieum</link>
-            <sparkle:version>97</sparkle:version>
-            <sparkle:shortVersionString>0.11.23</sparkle:shortVersionString>
+            <sparkle:version>99</sparkle:version>
+            <sparkle:shortVersionString>0.11.25</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[이음 0.11.23 · 옵시디언 단축키 안내와 앱별 설정 설명
+            <description sparkle:format="plain-text"><![CDATA[이음 0.11.25 · 하위 폴더로 파일 보내기와 상태 복구 개선
 
-옵시디언의 탭·새 노트·그래프 뷰 등에서 실제 지정된 단축키를 안내하도록 개선했습니다. 앱마다 필요한 설정 방법을 한곳에 모으고, 옵시디언 연결 옵션의 현재 상태도 확인할 수 있습니다.
+다른 Mac으로 파일을 보낼 때 등록 폴더 아래의 하위 폴더도 선택할 수 있습니다. 메뉴바 느낌표의 이유를 바로 확인하고, 일시적인 연결·키보드 준비 실패가 복구되면 해당 경고가 사라지도록 보완했습니다. 재실행 후 Dock 표시 설정 복구도 포함합니다.
 
-옵시디언에서 단축키 안내 받기
-· 설치된 옵시디언 앱의 탭 추가·닫기 버튼을 눌렀을 때 단축키 안내가 나오도록 고쳤습니다. 새 노트처럼 한국어 버튼과 메뉴의 이름이 다른 기능도 연결합니다.
-· 옵시디언 설정 → 일반 → 명령줄 인터페이스를 켜면 그래프 뷰·검색·새 노트·새 폴더·빠른 전환기·명령어 팔레트 등 지원하는 내부 명령의 현재 단축키를 읽습니다. 사용자 지정 키와 키 해제를 반영하며, 키가 지정되지 않은 기능에는 임의의 기본 키를 표시하지 않습니다.
-· 읽은 내부 단축키는 한눈에 보기의 현재 앱 목록에도 반영합니다. 옵시디언의 모든 플러그인이나 버튼에서 안내가 나오는 것은 아닙니다.
+원하는 하위 폴더로 보내세요
+· Finder·창고·클립보드의 공통 보내기 화면에서 저장 위치를 고른 뒤 ‘하위 폴더 선택’으로 대상 폴더를 탐색할 수 있습니다. 선택을 취소하면 원래 저장 위치를 유지합니다.
+· 양쪽 Mac을 0.11.25 이상으로 업데이트하고, 받는 Mac의 일반 → 자료 공유에서 해당 폴더 읽기를 허용해야 하위 폴더를 탐색할 수 있습니다. 파일 받기 권한만으로 폴더 내용이 공개되지는 않습니다.
+· 선택한 하위 폴더 안에 기존처럼 전송별 폴더를 만들어 저장합니다. 폴더가 바뀌거나 권한이 철회되면 전송을 중단하며, 구버전 Mac에는 하위 폴더를 잘못 지정해 보내지 않도록 업데이트 안내를 표시합니다.
 
-앱별 설정을 한곳에서 확인하세요
-· 단축키 안내 → 앱 연동·화면 읽기에 ‘앱별 단축키 안내’를 추가했습니다. 옵시디언·JetBrains·지원 브라우저의 설정 방법을 펼쳐 보고 공통 도움말로 이어갈 수 있습니다.
-· 옵시디언은 설치 경로를 고정하지 않고 앱 식별자로 찾습니다. 설정이 꺼져 있을 때는 켜는 방법을, 켜져 있을 때는 현재 상태를 표시하며, 앱이나 설정을 확인하지 못한 경우도 구분합니다.
-· 이음 설정 화면으로 돌아오거나 ‘다시 확인’을 누르면 상태를 갱신합니다. 옵시디언의 설정을 자동으로 바꾸지 않으며, 플러그인·브라우저용 ‘앱 연동 사용’을 켜지 않아도 옵시디언의 내부 단축키를 읽을 수 있습니다.
+느낌표의 이유와 복구 상태를 확인하세요
+· 메뉴바 아이콘의 도움말과 우클릭 메뉴에 경고 이유를 표시합니다. 경고 항목을 누르면 문제 해결에서 전체 안내와 활동 기록을 볼 수 있습니다.
+· 수신 연결이 일시적으로 준비되지 않으면 간격을 두고 자동으로 다시 시도합니다. 이미 연결된 전송은 유지하고, 기능을 끄면 남은 연결 재시도를 정리합니다.
+· 키 감지기·Caps Lock 매핑의 복구가 확인되면 해당 경고만 해제합니다. 실패한 매핑 적용을 다시 시도하되 다른 앱이 설정한 매핑은 보존하며, 다른 오류를 함께 지우지 않습니다.
 
-참고 목록과 메뉴 조작을 다듬었어요
-· 한눈에 보기의 참고 모음을 ‘기본 키 참고’로 구분하고 Finder 전용 표시를 추가해 현재 앱의 실제 단축키와 혼동하지 않도록 했습니다.
-· 메뉴나 드래그를 조작하는 동안 반복 키보드 상태 점검을 미루고, 변경이 없는 점검에서 중복 조회를 줄였습니다. 설정 변경과 입력 매핑 복원은 바로 처리합니다.
+재실행 뒤 Dock 설정을 유지해요
+· 앱 시작·창 다시 열기·기능 소개·앱 활성화 때 Dock 표시 설정을 다시 확인하고, 반영이 지연되면 정해진 횟수 안에서 재시도합니다.
+· 일반 → 표시에서 적용 상태와 ‘다시 적용’ 버튼을 확인할 수 있습니다. 시작 옵션도 저장된 설정과 같은 방식으로 읽도록 맞췄습니다.
+
+전송 속도 안내
+· 서로 다른 장소의 전송 속도는 보내는 쪽 업로드, 받는 쪽 다운로드와 두 Mac 사이의 연결 상태에 따라 달라집니다. 이번 버전에는 전송 형식의 중복 인코딩을 줄이는 최적화가 포함되지 않습니다.
 ]]></description>
-            <enclosure url="https://github.com/dicass/ieum/releases/download/v0.11.23/Ieum-0.11.23.dmg" length="9361300" type="application/octet-stream" sparkle:edSignature="7vosmt+tVguCk68FclCKZLrJSmNVh70rSjdGG7YPuR4nQb9VG+41NETl70AWVgCALDMpE/iUkXqMWA9IqmKwAA=="></enclosure>
+            <enclosure url="https://github.com/dicass/ieum/releases/download/v0.11.25/Ieum-0.11.25.dmg" length="9455485" type="application/octet-stream" sparkle:edSignature="IL5QrYuu5udW+uzrHzhGkcwlHI6nUgaAwNpqsIv2lVcOxDFgV7THbhza0DARFVMZtb9qlG72kK3FxyoVPnWICQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 95I4WRBBLyL51/mO/sP5FZDIdsH5cbWVhAS4o4At1haf0hghxh9uTAvm0EaV0Ml6bU3fYvgGNgVNey/o1Y+OCQ==
-length: 3690
+edSignature: 6V2oRqYqtcsAxWhVCx4pIbTrt2EdZotE9S1gkrwR3NQMw8yw4ygaMyceLPQgoinPTcfyFleR6WmJCIU5UVz9Cw==
+length: 3878
 -->
