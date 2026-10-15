@@ -4,35 +4,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Ieum</title>
         <item>
-            <title>0.11.26</title>
-            <pubDate>Thu, 15 Oct 2026 17:52:20 +0900</pubDate>
+            <title>0.11.27</title>
+            <pubDate>Thu, 15 Oct 2026 18:29:24 +0900</pubDate>
             <link>https://github.com/dicass/ieum</link>
-            <sparkle:version>100</sparkle:version>
-            <sparkle:shortVersionString>0.11.26</sparkle:shortVersionString>
+            <sparkle:version>101</sparkle:version>
+            <sparkle:shortVersionString>0.11.27</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[이음 0.11.26 · 더 쉬운 설정과 효율적인 파일 전송
+            <description sparkle:format="plain-text"><![CDATA[이음 0.11.27 · 파일 전송 창의 스크롤바 색상 개선
 
-설정의 주요 옵션에 동작 설명을 붙이고, 세부 조정은 현재 값이 보이도록 접었습니다. 파일 전송의 불필요한 데이터 변환을 줄이고, 상대 Mac이 늦게 연결될 때 저장 위치를 다시 확인하도록 보완했습니다.
+파일 전송 목록 오른쪽의 세로 스크롤바가 창 배경과 자연스럽게 어울리도록 다듬었습니다.
 
-설정을 더 쉽게 확인하세요
-· 일반 설정의 첫 탭을 ‘시작·표시’로 바꾸고, 한영 전환·단축키 안내·창고·자료 공유·잠자기·디스플레이의 주요 옵션을 이해하기 쉽게 정리했습니다.
-· 호출키와 모양 등 세부 설정은 현재 값을 요약해 보여 주고 펼쳐서 조정합니다. 오류·진행 상태·권한 안내는 계속 바로 확인할 수 있습니다.
-· 설정 파일 가져오기·내보내기와 Mac끼리 설정 옮기기를 구분하고, 되돌리기와 기본값 복원 안내를 통일했습니다. 기존 설정값과 보관한 자료는 유지합니다.
-
-전송에 필요한 데이터를 줄였어요
-· 파일 내용을 보내는 과정의 중복 변환을 제거해 데이터량과 처리 비용을 줄였습니다. 별도의 고속 모드 설정 없이 자동 적용합니다.
-· 암호화·받는 위치의 권한 확인·일시정지·이어보내기·전송 후 무결성 검사는 유지합니다. 실제 속도는 보내는 쪽 업로드, 받는 쪽 다운로드, 연결 경로와 저장 장치에 따라 달라집니다.
-· 새 전송 방식은 양쪽 Mac 모두 0.11.26 이상일 때 적용합니다. 구버전과 연결하면 기존 방식으로 전송합니다.
-
-늦게 연결된 Mac에도 다시 요청해요
-· 상대 Mac의 이음이 첫 접속 시도보다 늦게 시작되면 대기 중인 연결을 다시 시도합니다. 저장 위치 목록을 받지 못하고 기다리던 조건을 보완했습니다.
-· 이미 연결된 Mac과 진행 중인 전송은 유지하며, 한 수신자의 연결 실패가 다른 수신자의 작업을 막지 않도록 검사했습니다.
+테마에 어울리는 스크롤바
+· 밝은 테마에서 이질적으로 보이던 스크롤바 바탕 띠를 없애고 팝업 배경이 이어지도록 했습니다.
+· 스크롤바 손잡이 색은 파일 전송 창의 밝은·어두운 테마를 따릅니다. 테마를 바꿔도 현재 보고 있던 목록 위치를 유지합니다.
+· macOS의 스크롤바 표시 설정과 기본 스크롤 동작은 유지합니다.
 ]]></description>
-            <enclosure url="https://github.com/dicass/ieum/releases/download/v0.11.26/Ieum-0.11.26.dmg" length="9469061" type="application/octet-stream" sparkle:edSignature="+p1QSR1eIXwuDc/WYuLRUc54LovmEk3Ksy0hAnpOoVbiiEM149IcoEaUPd0AQfQpp3/QrwCj0tmVTuFQfoSjDg=="></enclosure>
+            <enclosure url="https://github.com/dicass/ieum/releases/download/v0.11.27/Ieum-0.11.27.dmg" length="9501928" type="application/octet-stream" sparkle:edSignature="H9KmmfpX/InM3vESPd40cXxp697ajxXxb7pmYsCsMR2ofbTHnVyzOZb8gxeU67oVP7UUCjQ86p4W9d4FSwWlDg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 1V+xkuEF5iSZeGqUDLLKpC9ib6tTvH2kC7gmY3hviyCt/5W/LbLNyPavtF0KZudw1kTw2Bf9Fc5LuqmvGvPUBQ==
-length: 3277
+edSignature: nQrNoYbz803jVMfmUZKcvGCCRusk1S9ZV4HdGeEpw3pQ4tkK5gteBgQdIjwaGb+DFU7wHSR9VLlxpT4vxf4LAQ==
+length: 1869
 -->
