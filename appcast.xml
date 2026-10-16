@@ -4,26 +4,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Ieum</title>
         <item>
-            <title>0.11.27</title>
-            <pubDate>Thu, 15 Oct 2026 18:29:24 +0900</pubDate>
+            <title>0.11.28</title>
+            <pubDate>Fri, 16 Oct 2026 09:53:52 +0900</pubDate>
             <link>https://github.com/dicass/ieum</link>
-            <sparkle:version>101</sparkle:version>
-            <sparkle:shortVersionString>0.11.27</sparkle:shortVersionString>
+            <sparkle:version>102</sparkle:version>
+            <sparkle:shortVersionString>0.11.28</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[이음 0.11.27 · 파일 전송 창의 스크롤바 색상 개선
+            <description sparkle:format="plain-text"><![CDATA[이음 0.11.28 · 파일 전송 속도와 응답성 개선
 
-파일 전송 목록 오른쪽의 세로 스크롤바가 창 배경과 자연스럽게 어울리도록 다듬었습니다.
+화면 조작과 파일 준비·검증 작업이 진행 중인 파일 전송을 지연시키는 경로를 줄였습니다. 상대의 응답이 늦은 연결에서도 데이터를 더 이어서 보낼 수 있도록 개선했습니다.
 
-테마에 어울리는 스크롤바
-· 밝은 테마에서 이질적으로 보이던 스크롤바 바탕 띠를 없애고 팝업 배경이 이어지도록 했습니다.
-· 스크롤바 손잡이 색은 파일 전송 창의 밝은·어두운 테마를 따릅니다. 테마를 바꿔도 현재 보고 있던 목록 위치를 유지합니다.
-· macOS의 스크롤바 표시 설정과 기본 스크롤 동작은 유지합니다.
+화면 조작 중에도 전송을 이어가요
+· 파일 읽기·쓰기와 수신 확인을 화면 처리와 분리하고, 진행 상태 표시는 모아서 갱신하도록 했습니다.
+· 다른 파일의 준비나 최종 검증 작업이 진행 중인 전송을 기다리게 하는 경로를 줄였습니다. 별도로 고속 모드를 켤 필요는 없습니다.
+
+응답이 늦은 연결에서 대기를 줄였어요
+· 상대 Mac의 수신 확인을 기다리는 동안 보낼 수 있는 데이터량을 늘렸습니다. 양쪽 Mac 모두 0.11.28 이상이면 자동 적용하며, 구버전과 연결하면 기존 한도를 사용합니다.
+· 실제 속도는 보내는 쪽 업로드·받는 쪽 다운로드·연결 경로·저장 장치에 따라 달라집니다. 웹 다운로드와 같은 속도를 보장하는 변경은 아닙니다.
+
+취소와 이어보내기도 함께 점검했어요
+· 전송을 취소하거나 받기 권한을 끌 때 대기 중인 쓰기를 중단하고, 이전 연결의 취소가 새로 이어받는 작업에 영향을 주지 않도록 보완했습니다.
+· 암호화·받는 위치의 권한 확인·일시정지·재연결과 앱 재실행 후 이어보내기·최종 무결성 검사를 유지합니다.
 ]]></description>
-            <enclosure url="https://github.com/dicass/ieum/releases/download/v0.11.27/Ieum-0.11.27.dmg" length="9501928" type="application/octet-stream" sparkle:edSignature="H9KmmfpX/InM3vESPd40cXxp697ajxXxb7pmYsCsMR2ofbTHnVyzOZb8gxeU67oVP7UUCjQ86p4W9d4FSwWlDg=="></enclosure>
+            <enclosure url="https://github.com/dicass/ieum/releases/download/v0.11.28/Ieum-0.11.28.dmg" length="9507462" type="application/octet-stream" sparkle:edSignature="5d4VxBsIUQWAwf6m/HSzghrGENmyT/4DJKcPtgPwOGWPl4IgqVrKsBA2FUtk/oeNuAtrV6cykCyVVQ1H/xYyDA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: nQrNoYbz803jVMfmUZKcvGCCRusk1S9ZV4HdGeEpw3pQ4tkK5gteBgQdIjwaGb+DFU7wHSR9VLlxpT4vxf4LAQ==
-length: 1869
+edSignature: nSXaATszuekXLLeMJOWLkYHW3mcj8vJiPu7lHN/dKB+uxBFMvEsL1Z4huMj7WLqPUj6rku1Yea4EKuME/sVKDQ==
+length: 2794
 -->
