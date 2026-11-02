@@ -4,30 +4,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Ieum</title>
         <item>
-            <title>0.11.35</title>
-            <pubDate>Mon, 02 Nov 2026 10:23:27 +0900</pubDate>
+            <title>0.11.36</title>
+            <pubDate>Mon, 02 Nov 2026 20:48:40 +0900</pubDate>
             <link>https://github.com/dicass/ieum</link>
-            <sparkle:version>109</sparkle:version>
-            <sparkle:shortVersionString>0.11.35</sparkle:shortVersionString>
+            <sparkle:version>110</sparkle:version>
+            <sparkle:shortVersionString>0.11.36</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[이음 0.11.35 · 길게 눌러 열린 창보다 후속 입력을 우선해요
+            <description sparkle:format="plain-text"><![CDATA[이음 0.11.36 · 잠자기 팝업도 다른 키 입력에 닫혀요
 
-길게 눌러 열린 창고·클립보드가 입력 포커스를 가져가거나 이어지는 타이핑 때문에 계속 남는 경로를 수정했습니다. 한눈에 보기의 임시 안내도 키보드 포커스를 받을 수 없도록 보강했습니다.
+Shift 같은 보조 키를 길게 눌러 연 잠자기 방지 창이 다른 키를 눌러도 남아 있던 누락을 수정했습니다. 일반 글자 입력과 단축키 모두 원래 작업을 우선합니다.
 
-타이핑을 시작하면 임시 창을 닫아요
-· 보조 키를 길게 눌러 처음 열린 창고·클립보드는 원래 앱의 입력 포커스를 유지합니다. 이어서 다른 키를 누르거나 창 밖에서 클릭·드래그·스크롤하면 닫힙니다.
-· 길게 눌러 열린 한눈에 보기의 임시 안내도 키보드 포커스를 받지 않도록 했습니다. 호출에 쓴 보조 키를 떼는 동작만으로는 닫지 않습니다.
+길게 누른 뒤 타이핑을 이어가세요
+· 길게 눌러 처음 연 잠자기 방지 창은 입력 포커스를 가져오지 않습니다. 다른 키를 누르거나 창 밖에서 클릭·드래그·스크롤하면 닫히며, 호출에 쓴 보조 키를 떼는 동작만으로는 닫지 않습니다.
+· 창 안을 직접 클릭하면 유지 시간과 설정을 조작할 수 있습니다. 일반 호출이나 이미 조작 중인 창의 동작은 유지합니다.
 
-창을 선택해 사용하면 계속 이어갈 수 있어요
-· 창고·클립보드 안을 직접 클릭하거나 고정하면 검색 등 창 안의 작업을 이어갈 수 있습니다. 한눈에 보기는 기존 ‘클릭하면 유지’ 설정을 따릅니다.
-· 메뉴·조합키로 연 창과 이미 사용 중인 창의 탭·고정을 보존합니다. 창을 닫았다가 다시 열어도 이전 입력 감시나 닫기 예약이 새 창에 영향을 주지 않도록 했습니다.
-· 한눈에 보기에서 메뉴 실행을 선택한 뒤 실행 대상을 확인하지 못해도 오류를 읽고 Esc로 닫을 수 있도록 했습니다.
+잠자기 방지는 계속 유지해요
+· 팝업이 닫혀도 실행 중인 잠자기 방지와 종료 시각은 바뀌지 않습니다.
 ]]></description>
-            <enclosure url="https://github.com/dicass/ieum/releases/download/v0.11.35/Ieum-0.11.35.dmg" length="9670209" type="application/octet-stream" sparkle:edSignature="sz1vaF1QBuPoWkrccj6WnC8KO+8/e5sK33YefJH+NqR/9XFOkHKAlCcqD1OE7SRmJed9RQML3v3ayQeSpJ9FDg=="></enclosure>
+            <enclosure url="https://github.com/dicass/ieum/releases/download/v0.11.36/Ieum-0.11.36.dmg" length="9668809" type="application/octet-stream" sparkle:edSignature="UrvRbUNYtyFRvhd0L9Qq7fOhqxfENgkjahl6ulyXLMiwBJI8CKVVR3E8751m7XiB2i6MRKelh4AMdOj21OBEBQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: NFXNHngmLwAtxPszwG1+fMw+mM9mGVHXgb70hLqS3COBtjLMRtQ52CJhxXxNkR2jdlpyTpYv7wQVyDyLABRzBQ==
-length: 2699
+edSignature: 0A0aITL1ul2HsayW94Ra3k40UHm+nclupzK/BfwmhNlcmOGWArG1rzivOpFDrIkBy4fE9klgMYbSGlhErsk/AQ==
+length: 2146
 -->
