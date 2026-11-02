@@ -4,30 +4,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Ieum</title>
         <item>
-            <title>0.11.34</title>
-            <pubDate>Fri, 30 Oct 2026 19:29:08 +0900</pubDate>
+            <title>0.11.35</title>
+            <pubDate>Mon, 02 Nov 2026 10:23:27 +0900</pubDate>
             <link>https://github.com/dicass/ieum</link>
-            <sparkle:version>108</sparkle:version>
-            <sparkle:shortVersionString>0.11.34</sparkle:shortVersionString>
+            <sparkle:version>109</sparkle:version>
+            <sparkle:shortVersionString>0.11.35</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[이음 0.11.34 · 재연결 복구와 길게 누르기 취소 개선
+            <description sparkle:format="plain-text"><![CDATA[이음 0.11.35 · 길게 눌러 열린 창보다 후속 입력을 우선해요
 
-Mac 재시작 뒤 연결을 다시 시도하는 흐름을 보완했습니다. 길게 누르는 호출키를 다른 키나 마우스와 함께 사용할 때 호출을 취소합니다. 임시 단축키 안내는 입력 포커스를 가져가지 않고, 다른 키나 안내 밖의 마우스 조작으로 닫힙니다.
+길게 눌러 열린 창고·클립보드가 입력 포커스를 가져가거나 이어지는 타이핑 때문에 계속 남는 경로를 수정했습니다. 한눈에 보기의 임시 안내도 키보드 포커스를 받을 수 없도록 보강했습니다.
 
-재시작 뒤 연결 복구를 보완했어요
-· 시작 시 키체인이 잠겨 있거나 잠시 준비되지 않아 연결 키를 읽지 못하면 제한된 횟수로 자동 재시도합니다. 권한 거절이나 연결 키가 없는 경우에는 반복하지 않습니다.
-· 상대 Mac의 이음이 늦게 실행될 때 대기 중인 입력 연결을 다시 시도합니다. 인증을 진행 중이거나 이미 연결된 상태는 유지합니다.
+타이핑을 시작하면 임시 창을 닫아요
+· 보조 키를 길게 눌러 처음 열린 창고·클립보드는 원래 앱의 입력 포커스를 유지합니다. 이어서 다른 키를 누르거나 창 밖에서 클릭·드래그·스크롤하면 닫힙니다.
+· 길게 눌러 열린 한눈에 보기의 임시 안내도 키보드 포커스를 받지 않도록 했습니다. 호출에 쓴 보조 키를 떼는 동작만으로는 닫지 않습니다.
 
-다른 조작을 시작하면 길게 누르기를 취소해요
-· 다른 키 입력·마우스 클릭·드래그·스크롤로 길게 누르기를 취소합니다. 마우스 버튼을 먼저 누른 상태에서도 호출하지 않으며, 다시 부르려면 보조 키를 뗐다가 눌러야 합니다.
-· 길게 눌러 연 한눈에 보기의 임시 안내는 입력 포커스를 가져오지 않고, 다른 키를 누르거나 안내 밖에서 마우스를 사용하면 닫힙니다.
-· ‘클릭하면 유지’를 켜고 안내 창을 직접 클릭해 고정한 경우와 메뉴·조합키로 직접 연 창의 기존 동작은 유지합니다.
+창을 선택해 사용하면 계속 이어갈 수 있어요
+· 창고·클립보드 안을 직접 클릭하거나 고정하면 검색 등 창 안의 작업을 이어갈 수 있습니다. 한눈에 보기는 기존 ‘클릭하면 유지’ 설정을 따릅니다.
+· 메뉴·조합키로 연 창과 이미 사용 중인 창의 탭·고정을 보존합니다. 창을 닫았다가 다시 열어도 이전 입력 감시나 닫기 예약이 새 창에 영향을 주지 않도록 했습니다.
+· 한눈에 보기에서 메뉴 실행을 선택한 뒤 실행 대상을 확인하지 못해도 오류를 읽고 Esc로 닫을 수 있도록 했습니다.
 ]]></description>
-            <enclosure url="https://github.com/dicass/ieum/releases/download/v0.11.34/Ieum-0.11.34.dmg" length="9665459" type="application/octet-stream" sparkle:edSignature="3IWt/aNsPVz5HROo+ChutN07LuIpBeXdma9GRXMTnHnf+LzPPpQrmFIrjpWk26E2Y14xXpPWdLVPjRPh605DAQ=="></enclosure>
+            <enclosure url="https://github.com/dicass/ieum/releases/download/v0.11.35/Ieum-0.11.35.dmg" length="9670209" type="application/octet-stream" sparkle:edSignature="sz1vaF1QBuPoWkrccj6WnC8KO+8/e5sK33YefJH+NqR/9XFOkHKAlCcqD1OE7SRmJed9RQML3v3ayQeSpJ9FDg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: bzqrx2yXewMfZrDpfEj5uRm4/zYdvLuRlryTgZTo+pmZHH7hYN7fe/RMJyHAGe5RJCrgZCBB2bkqncjmaOM3Cg==
-length: 2743
+edSignature: NFXNHngmLwAtxPszwG1+fMw+mM9mGVHXgb70hLqS3COBtjLMRtQ52CJhxXxNkR2jdlpyTpYv7wQVyDyLABRzBQ==
+length: 2699
 -->
