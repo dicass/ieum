@@ -8,7 +8,7 @@
 
 <p align="center"><a href="https://github.com/dicass/ieum/releases/latest">최신 버전 다운로드</a> · <a href="USER_GUIDE.md">사용설명서</a> · <a href="CHANGELOG.md">변경 내역</a> · <a href="SUPPORT.md">문제 해결</a> · <a href="SECURITY.md">보안</a> · <a href="PRIVACY.md">개인정보</a></p>
 
-**최신 버전 0.11.41 · macOS 14 이상 · Apple Silicon**
+**최신 버전 0.11.42 · macOS 14 이상 · Apple Silicon**
 
 원격 Mac을 쓰면서 한영 전환이 헷갈리거나, 복사한 자료와 파일을 여러 Mac에서 이어 쓰고 싶을 때 이음을 사용해 보세요. 클립보드 보관, 단축키 안내, 글자 추출처럼 Mac 한 대에서도 쓸 수 있는 기능이 있습니다. 필요한 기능만 켜서 사용할 수 있어요.
 
@@ -42,7 +42,7 @@
 
 ## 처음 설치하기
 
-1. [최신 설치 파일 — Ieum-0.11.41.dmg](https://github.com/dicass/ieum/releases/download/v0.11.41/Ieum-0.11.41.dmg)을 받습니다.
+1. [최신 설치 파일 — Ieum-0.11.42.dmg](https://github.com/dicass/ieum/releases/download/v0.11.42/Ieum-0.11.42.dmg)을 받습니다.
 2. DMG를 열고 이음 아이콘을 **Applications** 폴더로 끌어다 놓습니다.
 3. 복사가 끝나면 **응용 프로그램** 폴더에서 이음을 실행합니다.
 4. 사용할 기능을 켜고, 그 기능에 필요한 권한을 허용합니다.
@@ -86,13 +86,11 @@ VPN을 사용한다면 VPN 연결도 먼저 확인해 주세요. 파일 전송�
 
 ## 이번 버전에서 달라진 점
 
-덱 화면의 코드로 연결하고 필요한 기능을 허용하면 같은 Mac의 Orca Cockpit이 클립보드·창고·글자 추출·잠자기 방지·디스플레이를 조작할 수 있습니다. 이음은 작업의 접수와 실제 결과를 구분해 전달합니다.
+Stream Deck 연결 화면에 이름 입력이 선택 사항이라고 표시합니다.
 
-- 일반 → 사용할 기능 → 로컬 연동에서 연동을 켜고 연결 추가를 누르세요. 덱에서 본 코드를 입력하고 사용할 기능만 체크합니다. 이음이나 플러그인을 재시작하면 다시 연결합니다. 덱에서 복사한 자료는 이 Mac에서 붙여넣을 수 있고 자동 공유에서 제외됩니다.
-- 목록이 바뀌어도 같은 항목을 찾아 복사할 수 있습니다. 연동 프로그램은 원래 요청으로 복사 완료·글자 추출 취소·오류를 확인할 수 있습니다.
-- 밝기와 음량을 빠르게 돌리면 대기 중에는 최신 값만 남기고, 명령 전달과 모니터에서 다시 확인한 값을 구분합니다. 새 단계와 결과를 덱에 표시하려면 이를 지원하는 Cockpit 버전이 필요합니다.
+- 이름을 직접 입력하거나 비워 두세요. 비워 두면 이음이 확인한 프로그램의 서명 식별자가 표시됩니다.
 
-[전체 변경 내역](CHANGELOG.md) · [이번 릴리스](https://github.com/dicass/ieum/releases/tag/v0.11.41)
+[전체 변경 내역](CHANGELOG.md) · [이번 릴리스](https://github.com/dicass/ieum/releases/tag/v0.11.42)
 
 ## 도움이 필요할 때
 
