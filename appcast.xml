@@ -4,32 +4,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Ieum</title>
         <item>
-            <title>0.11.38</title>
-            <pubDate>Sat, 21 Nov 2026 00:52:20 +0900</pubDate>
+            <title>0.11.41</title>
+            <pubDate>Sat, 28 Nov 2026 00:30:27 +0900</pubDate>
             <link>https://github.com/dicass/ieum</link>
-            <sparkle:version>112</sparkle:version>
-            <sparkle:shortVersionString>0.11.38</sparkle:shortVersionString>
+            <sparkle:version>115</sparkle:version>
+            <sparkle:shortVersionString>0.11.41</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[이음 0.11.38 · 모니터마다 화면 크기를 골라 보세요
+            <description sparkle:format="plain-text"><![CDATA[이음 0.11.41 · Stream Deck에서 이음 작업의 결과를 확인할 수 있어요
 
-디스플레이 관리와 메뉴 막대의 디스플레이 조절창에서 이 Mac에 연결된 모니터의 해상도를 바꿀 수 있습니다. 선택한 해상도가 보이지 않으면 15초 뒤 처음 크기로 돌아갑니다.
+덱 화면의 코드로 연결하고 필요한 기능을 허용하면 같은 Mac의 Orca Cockpit이 클립보드·창고·글자 추출·잠자기 방지·디스플레이를 조작할 수 있습니다. 이음은 작업의 접수와 실제 결과를 구분해 전달합니다.
 
-화면 크기 비교와 HiDPI 목록
-· 각 모니터 카드에서 자주 쓰는 크기를 바로 고를 수 있습니다. 아이콘에 포인터를 올리면 배치도의 점선으로 다른 모니터와 작업 공간의 크기를 비교할 수 있습니다.
-· ‘다른 해상도 보기’에서 해당 모니터에 macOS가 제공하는 HiDPI 해상도를 검색할 수 있습니다.
+이 Mac에서 연동 허용
+· 일반 → 사용할 기능 → 로컬 연동에서 연동을 켜고 연결 추가를 누르세요. 덱에서 본 코드를 입력하고 사용할 기능만 체크합니다. 이음이나 플러그인을 재시작하면 다시 연결합니다. 덱에서 복사한 자료는 이 Mac에서 붙여넣을 수 있고 자동 공유에서 제외됩니다.
 
-선택한 해상도 유지와 자동 복원
-· 크기를 바꾸면 해당 카드의 ‘이 해상도 유지’ 버튼이 한 번 강조됩니다. 버튼 아래에 자동 복원까지 남은 시간과 돌아갈 해상도가 표시됩니다.
-· ‘이 해상도 유지’는 현재 로그인 동안 적용됩니다. ‘되돌리기’를 누르면 즉시 복원됩니다. 여러 크기를 연달아 시험하면 마지막 선택부터 15초를 세고, 처음 해상도로 돌아갑니다. ‘저장한 배치 유지’가 켜져 있어도 바로 시험할 수 있고 확정한 크기는 저장한 배치에 반영됩니다.
-
-작은 창에서도 창 버튼이 보여요
-· 이음 창의 높이를 줄여도 닫기·최소화·확대 버튼에 필요한 제목 막대 공간을 확보합니다.
+목록 선택과 작업 결과
+· 목록이 바뀌어도 같은 항목을 찾아 복사할 수 있습니다. 연동 프로그램은 원래 요청으로 복사 완료·글자 추출 취소·오류를 확인할 수 있습니다.
+· 밝기와 음량을 빠르게 돌리면 대기 중에는 최신 값만 남기고, 명령 전달과 모니터에서 다시 확인한 값을 구분합니다. 새 단계와 결과를 덱에 표시하려면 이를 지원하는 Cockpit 버전이 필요합니다.
 ]]></description>
-            <enclosure url="https://github.com/dicass/ieum/releases/download/v0.11.38/Ieum-0.11.38.dmg" length="9841585" type="application/octet-stream" sparkle:edSignature="85NWPsi+GHKJSMB23otcWji+DbV4bQCtfoe2bQs+gY9mYbHmIReTLzhQhPvfQABrPLaPDa6hf4BUnz/tnpfQAA=="></enclosure>
+            <enclosure url="https://github.com/dicass/ieum/releases/download/v0.11.41/Ieum-0.11.41.dmg" length="9994123" type="application/octet-stream" sparkle:edSignature="B+UJB7SSIbELxdYBe3pOH0sMxrGnQQGjbaJURCXbsmmRpZ4N+v7mCCU6ke9bzkwp41Kr2xYQSvdk+g65CMSBAg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: c3/USVulNpv1khE/rR5zWUYz1ZeiOecWaH7vTlRkgdcOzroB1StkfhWylqDu4fVUuaLtHpV/fe6Id0eIGLd8Aw==
-length: 2736
+edSignature: 04xRDyBDvGT1DAXTdiya24MszgUVQkO3jP1j9qcUpjaxV5Prlgjhk1BWKC6Pg/sSFOPUbSoypAkqGNLFo5RdDg==
+length: 2485
 -->
