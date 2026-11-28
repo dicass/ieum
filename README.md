@@ -8,7 +8,7 @@
 
 <p align="center"><a href="https://github.com/dicass/ieum/releases/latest">최신 버전 다운로드</a> · <a href="USER_GUIDE.md">사용설명서</a> · <a href="CHANGELOG.md">변경 내역</a> · <a href="SUPPORT.md">문제 해결</a> · <a href="SECURITY.md">보안</a> · <a href="PRIVACY.md">개인정보</a></p>
 
-**최신 버전 0.11.42 · macOS 14 이상 · Apple Silicon**
+**최신 버전 0.11.43 · macOS 14 이상 · Apple Silicon**
 
 원격 Mac을 쓰면서 한영 전환이 헷갈리거나, 복사한 자료와 파일을 여러 Mac에서 이어 쓰고 싶을 때 이음을 사용해 보세요. 클립보드 보관, 단축키 안내, 글자 추출처럼 Mac 한 대에서도 쓸 수 있는 기능이 있습니다. 필요한 기능만 켜서 사용할 수 있어요.
 
@@ -42,7 +42,7 @@
 
 ## 처음 설치하기
 
-1. [최신 설치 파일 — Ieum-0.11.42.dmg](https://github.com/dicass/ieum/releases/download/v0.11.42/Ieum-0.11.42.dmg)을 받습니다.
+1. [최신 설치 파일 — Ieum-0.11.43.dmg](https://github.com/dicass/ieum/releases/download/v0.11.43/Ieum-0.11.43.dmg)을 받습니다.
 2. DMG를 열고 이음 아이콘을 **Applications** 폴더로 끌어다 놓습니다.
 3. 복사가 끝나면 **응용 프로그램** 폴더에서 이음을 실행합니다.
 4. 사용할 기능을 켜고, 그 기능에 필요한 권한을 허용합니다.
@@ -86,11 +86,13 @@ VPN을 사용한다면 VPN 연결도 먼저 확인해 주세요. 파일 전송�
 
 ## 이번 버전에서 달라진 점
 
-Stream Deck 연결 화면에 이름 입력이 선택 사항이라고 표시합니다.
+이음이 같은 Mac에서 승인한 Stream Deck 연결과 기능별 권한을 기억합니다. 처음 연결하는 방법과 개발자·AI에 전달할 API 명세를 이음 안에서 확인할 수 있습니다.
 
-- 이름을 직접 입력하거나 비워 두세요. 비워 두면 이음이 확인한 프로그램의 서명 식별자가 표시됩니다.
+- 0.11.42까지 연결해 둔 플러그인은 업데이트 후 한 번 다시 승인해 주세요. 이후 이음만 다시 시작하면 같은 플러그인 프로세스의 연결이 유지됩니다. 키체인 잠금 안내가 뜨면 이 Mac의 로그인 키체인을 잠금 해제한 뒤 다시 시도하세요.
+- 플러그인 또는 Mac을 재시작한 뒤 자동으로 연결하려면 플러그인이 설치별 서명 키를 이용한 재연결을 지원해야 합니다. 일반 → 사용할 기능 → 로컬 연동에서 연결별 권한을 바꾸거나 연결을 해제할 수 있습니다.
+- 이음에서 연결 추가를 열고 Mac 메뉴 막대의 Stream Deck 아이콘을 우클릭해 Show Action Bar를 선택하세요. 페달을 누른 뒤 플러그인이 액션 바나 버튼 설정창에 표시하는 여섯 자리 코드를 2분 안에 이음에 입력하세요. 표시 여부는 플러그인과 프로필에 따라 다릅니다.
 
-[전체 변경 내역](CHANGELOG.md) · [이번 릴리스](https://github.com/dicass/ieum/releases/tag/v0.11.42)
+[전체 변경 내역](CHANGELOG.md) · [이번 릴리스](https://github.com/dicass/ieum/releases/tag/v0.11.43)
 
 ## 도움이 필요할 때
 
